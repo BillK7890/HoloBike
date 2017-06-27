@@ -13,8 +13,8 @@ public class NewBehaviourScript : MonoBehaviour {
 	void Update () {
         if (Input.GetAxis("Horizontal") > 0)
         {
-            transform.rotation = QualityLev
+			//transform.rotation = QualityLev;
         }
-		transform.Translate(Input.GetAxis)
+		//transform.Translate(Input.GetAxis);
 	}
 }

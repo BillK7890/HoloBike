@@ -9,6 +9,7 @@ public class drive : MonoBehaviour {
     private Vector3 bikeMovement;
 	private float bikeRotation;
 	private float totalRotation;
+	private float bikeDirection;
 
 	// Use this for initialization
 	protected virtual void Start () {
@@ -19,10 +20,10 @@ public class drive : MonoBehaviour {
 	void Update () {
 		
 		if(Input.GetKeyDown(KeyCode.F)){
-			totalRotation += 45;
+			totalRotation -= 90;
 		}
 		else if(Input.GetKeyDown(KeyCode.G)){
-			totalRotation += (-45);
+			totalRotation += 90;
 		}
 
 		//float bikeVertical = Input.GetAxis ("Vertical") * 90;
@@ -30,10 +31,14 @@ public class drive : MonoBehaviour {
 		//float tiltAroundZ = Input.GetAxis("Horizontal") * tiltAngle;
 
 		//Quaternion target = Quaternion.Euler(0, bikeRotation, 0);
-		transform.rotation = new Quaternion(0, totalRotation, 0, 1);
+		transform.Rotate(Vector3.up * totalRotation);
+		totalRotation = 0f;
 
 
-        bikeMovement.x -= 0.1f;
+		bikeMovement = (Vector3.forward * 0.01f);
+
+
+		transform.position += transform.forward * Time.deltaTime;
         //transform.position = new Vector3(bikeMovement.x, transform.position.y, transform.position.z);
 	}
 }
