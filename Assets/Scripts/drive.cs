@@ -11,9 +11,15 @@ public class drive : MonoBehaviour {
 	private float totalRotation;
 	private float bikeDirection;
 
+    public GameObject cursor;
+
+    
+
 	// Use this for initialization
 	protected virtual void Start () {
         bikeMovement = new Vector3(0, 0, 0);
+        cursor = GameObject.Find("Cursor");
+       
 	}
 	
 	// Update is called once per frame
@@ -37,8 +43,15 @@ public class drive : MonoBehaviour {
 
 		bikeMovement = (Vector3.forward * 0.01f);
 
+        Vector3 target = cursor.transform.position;
 
-		transform.position += transform.forward * Time.deltaTime;
+        Vector3 normalized = target - transform.position;
+
+        normalized.Normalize();
+
+        transform.forward = target;
+
+		transform.position += normalized * Time.deltaTime * 0.07f;
         //transform.position = new Vector3(bikeMovement.x, transform.position.y, transform.position.z);
 	}
 }
