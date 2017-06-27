@@ -6,11 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-<<<<<<< HEAD
-    <ProjectGuid>{C598F65E-1A66-D0F9-05DD-E3878BAE1C13}</ProjectGuid>
-=======
-    <ProjectGuid>{C434B120-CD51-6D1F-FE2D-7637399E1A07}</ProjectGuid>
->>>>>>> 610f54caa08d1290005dd9b430059ba1127ca5d9
+    <ProjectGuid>{D57C5E15-8F48-68D3-CC04-2034D1579794}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -284,6 +280,7 @@
      <Compile Include="Assets\HoloToolkit\Utilities\Scripts\VectorRollingStatistics.cs" />
      <Compile Include="Assets\HoloToolkit\Utilities\Scripts\WorldAnchorManager.cs" />
      <Compile Include="Assets\HoloToolkit\Utilities\Shaders\FastConfigurable\Scripts\CalibrationSpace.cs" />
+     <Compile Include="Assets\Scripts\Player1.cs" />
      <Compile Include="Assets\Scripts\drive.cs" />
      <None Include="Assets\HoloToolkit\Utilities\Shaders\UnlitConfigurable.shader" />
      <None Include="Assets\HoloToolkit\SpatialUnderstanding\Materials\SpatialUnderstandingSurface.shader" />
@@ -339,6 +336,9 @@
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Cecil">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

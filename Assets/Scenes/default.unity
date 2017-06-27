@@ -316,7 +316,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!4 &1143061861
 Transform:
   m_ObjectHideFlags: 0
@@ -324,7 +324,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1143061859}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.3, y: -0.2, z: 5}
+  m_LocalPosition: {x: 0.3, y: -0.3, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1709371829}
@@ -357,8 +357,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.7262691, y: 1, z: 0.3497815}
-  m_Center: {x: -0.3582018, y: 0, z: 0.32510924}
+  m_Size: {x: 1.962316, y: 0.95632124, z: 0.5}
+  m_Center: {x: -0.23115802, y: 0.37127757, z: 0}
 --- !u!4 &1252791280 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000013298573622, guid: 2ed75ffdf9031c94e8bce4b3d17b9928,
@@ -451,7 +451,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1342605741}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.13, y: -0.07, z: 6.121192}
+  m_LocalPosition: {x: -5.13, y: -0.07, z: 6.22}
   m_LocalScale: {x: 2.136746, y: 2.3571825, z: 10.714235}
   m_Children: []
   m_Father: {fileID: 0}
@@ -705,7 +705,7 @@ TrailRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 4cdc4d148dad05d48939c9fc1eae6bdd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
