@@ -6,11 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-<<<<<<< HEAD
-    <ProjectGuid>{BA8AD2F6-C7FB-4912-29F5-5A5A28623134}</ProjectGuid>
-=======
-    <ProjectGuid>{B469EA14-3AFC-4885-F9ED-1A9325790BF8}</ProjectGuid>
->>>>>>> 610f54caa08d1290005dd9b430059ba1127ca5d9
+    <ProjectGuid>{1DD12D08-FE3E-DF5A-B965-2AE35A207775}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -174,17 +170,10 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
- <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
- </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-<<<<<<< HEAD
-      <Project>{C598F65E-1A66-D0F9-05DD-E3878BAE1C13}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
-=======
-      <Project>{C434B120-CD51-6D1F-FE2D-7637399E1A07}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
->>>>>>> 610f54caa08d1290005dd9b430059ba1127ca5d9
+      <Project>{E1CDABC8-4018-A39D-1720-C30AB628F757}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

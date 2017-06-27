@@ -1,4 +1,4 @@
 sceneSetups:
-- path: D:/INT MEDIA IGME 202/Azzarano_HW4/Assets/Scenes/FinalProjectScene.unity
+- path: Assets/Scenes/default.unity
   isLoaded: 1
   isActive: 1
